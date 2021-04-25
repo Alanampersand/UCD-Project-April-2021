@@ -14,3 +14,10 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+import pandas as pd
+import matplotlib as plt
+
+pd.set_option('display.max_columns', None)
+vaccines = pd.read_csv("vaccine_data.csv")
+
